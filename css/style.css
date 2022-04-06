@@ -10,7 +10,7 @@ logo{
 }
 .navigation{
     max-width:100%;
-    padding: 1%;
+    padding: 0%;
 }
 header ul{
     float: left;
@@ -27,14 +27,14 @@ header ul{
     width: 100%;
 }
 .content {
-    width: 48%;
-    margin: 5% 5% 5% 5% auto;
+    width: 30%;
+    margin: 5% 1% 5% 10%;
     float: left;
 }
 .heroImg {
     width: 48%;
-    margin: 5% 5% 5% 5% auto;
-    float: left;
+    margin: 5% 1% 5% 10%;
+    float: right;
 
 }
 footer{
