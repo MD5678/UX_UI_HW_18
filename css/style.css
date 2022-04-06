@@ -1,14 +1,15 @@
 header li{
   display: inline-block;
-vertical-align: text-top; 
+vertical-align: text-top;
+margin: 1% 1% 1% 1%; 
 }
 logo{
-    max-width:23%;
-    padding: 1%;
+    max-width:0%;
+    padding: 0%;
     text-align: center;
 }
 .navigation{
-    max-width:73%;
+    max-width:100%;
     padding: 1%;
 }
 header ul{
@@ -18,13 +19,23 @@ header ul{
     background-color: #F4EEE6;
     padding: 25px;
 }
-.heroImg {
-    height: 400px;
-    padding: 25px;
+.heroSection {
+    /*height: 400px;*/
+    padding: 0px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 100%;
 }
 .content {
-    width: 500px;
-    margin: 0 auto;
+    width: 48%;
+    margin: 5% 5% 5% 5% auto;
+    float: left;
+}
+.heroImg {
+    width: 48%;
+    margin: 5% 5% 5% 5% auto;
+    float: left;
+
 }
 footer{
     background-color: #F4EEE6;
