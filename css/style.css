@@ -25,6 +25,7 @@ header ul{
     display: inline-block;
     vertical-align: text-top;
     width: 100%;
+    background-color: #F4EEE6;
 }
 .content {
     width: 30%;
@@ -35,7 +36,19 @@ header ul{
     width: 48%;
     margin: 5% 1% 5% 10%;
     float: right;
-
+}
+/*my work using CSS grid*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-template-rows: 200px 200px;
+    background-color: #F4EEE6;
+}
+.myWork{
+    padding: 0px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 100%;
 }
 footer{
     background-color: #F4EEE6;
