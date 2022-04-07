@@ -42,6 +42,7 @@ header ul{
     display: grid;
     grid-template-columns: 48% 48%;
     grid-template-rows: 200px 200px;
+    gap: 10px;
     background-color: #F4EEE6;
 }
 .myWork{
